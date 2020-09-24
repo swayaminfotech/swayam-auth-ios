@@ -1,0 +1,114 @@
+/*
+ Localizable.strings
+ Swayam Auth
+
+ Created by Swayam Infotech on 19/09/20.
+ Copyright © 2020 Swayam Infotech. All rights reserved.
+ */
+
+"company_name"                          = "Swayam Infotech";
+
+// login
+"email"                                 = "Email";
+"password"                              = "Password";
+"forgot_password"                       = "Forgot Password";
+"login"                                 = "Login";
+"dont_have_account"                     = "Don't have an account? Register";
+
+// signup
+"signup"                                = "Sign Up";
+"first_name"                            = "First Name";
+"last_name"                             = "Last Name";
+"about_me"                              = "About Me";
+"gender"                                = "Gender (optional)";
+"male"                                  = "Male";
+"female"                                = "Female";
+"confirm_password"                      = "Confirm Password";
+"agree_terms_of_use"                    = "I agree to ****";
+
+// forgot password
+"forgot_password"                       = "Forgot Password";
+"send_mail"                             = "Send";
+
+// terms of use and
+"terms_of_use"                          = "Terms Of Use";
+
+// about us
+"about_us"                              = "About Us";
+
+// change password
+"change_password"                       = "Change Password";
+"current_password"                      = "Current Password";
+"new_password"                          = "New Password";
+"confirm_new_password"                  = "Confirm New Password";
+
+// edit profile
+"edit_profile"                          = "Edit Profile";
+"save"                                  = "Save";
+
+// sidemenu
+"logout"                                = "Logout";
+"want_to_logout"                        = "Do you want to logout?";
+"rate_application"                      = "Rate App";
+"share_application"                     = "Share App";
+"yes"                                   = "Yes";
+"no"                                    = "No";
+
+// home screen
+"home"                                  = "Home";
+
+// general messages
+"internet_not_available"                = "Internet unavailable. Please try again later.";
+"close_text"                            = "Close";
+"takePhoto_text"                        = "Capture Photo";
+"camera_not_found"                      = "Camera Not Found";
+"device_no_cemera"                      = "This device has no Camera.";
+"ok_text"                               = "OK";
+"file_format_not_support"               = "File format not supported.";
+"file_format_alert"                     = "Please select another file to upload.";
+"Choose_photo"                          = "Choose From Gallery";
+
+"aboutme_required_title"                = "About me required!";
+"aboutme_blank"                         = "Please enter about me.";
+
+"email_required_title"                  = "Email required!";
+"email_incorrect_title"                 = "Email format invalid!";
+"email_blank"                           = "Please enter your email.";
+"email_invalid"                         = "Please enter valid email.";
+
+"password_required_title"               = "Password required!";
+"password_incorrect_title"              = "Password format invalid!";
+"password_blank"                        = "Please enter your password.";
+"password_invalid"                      = "Please enter at least 7 alphanumeric characters in password.";
+
+"confirm_password_required_title"       = "Confirm password required!";
+"confirm_password_incorrect_title"      = "Confirm password invalid!";
+"confirm_password_blank"                = "Please enter confirm password";
+"confirm_password_invalid"              = "Confirm password and password does not match.";
+
+"current_password_required_title"       = "Current password required!";
+"current_password_incorrect_title"      = "Current password invalid!";
+"current_password_blank"                = "Please enter your current password.";
+
+"new_password_required_title"           = "New password required!";
+"new_password_incorrect_title"          = "New password invalid!";
+"new_password_blank"                    = "Please enter your new password.";
+"new_password_invalid"                  = "Please enter at least 7 alphanumeric characters in new password.";
+
+"confirm_new_password_required_title"   = "Confirm new password required!";
+"confirm_new_password_incorrect_title"  = "Confirm new password invalid!";
+"confirm_new_password_blank"            = "Please confirm new password";
+"confirm_new_password_invalid"          = "Confirm password does not match with password.";
+
+"first_name_incorrect"                  = "First name required!";
+"first_name_blank"                      = "Please enter your first name.";
+"last_name_incorrect"                   = "Last name required!";
+"last_name_blank"                       = "Please enter your last name.";
+
+"phone_number_incorrect"                = "Phone number invalid!";
+"phone_number_invalid"                  = "Please enter valid phone number.";
+"phone_number_required"                 = "Phone number required!";
+"phone_number_blank"                    = "Please enter phone number.";
+
+"terms_of_use_required"                 = "Terms of use required!";
+"terms_of_use_blank"                    = "Please agree terms of use.";

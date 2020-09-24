@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42900662515E51C006DC8FC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42900652515E51C006DC8FC /* Login.swift */; };
+		C42900682515E53E006DC8FC /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42900672515E53E006DC8FC /* SignUp.swift */; };
+		C429006A2515E5AA006DC8FC /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42900692515E5AA006DC8FC /* ForgotPassword.swift */; };
+		C429006C2515F975006DC8FC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429006B2515F975006DC8FC /* Home.swift */; };
+		C46DF8A0251A0E2100E55EFD /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DF89B251A0E2100E55EFD /* SideMenuVC.swift */; };
+		C46DF8A1251A0E2100E55EFD /* SideMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46DF89C251A0E2100E55EFD /* SideMenuVC.xib */; };
+		C46DF8A2251A0E2100E55EFD /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46DF89D251A0E2100E55EFD /* SideMenuCell.xib */; };
+		C46DF8A3251A0E2100E55EFD /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DF89E251A0E2100E55EFD /* SideMenuModel.swift */; };
+		C46DF8A4251A0E2100E55EFD /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DF89F251A0E2100E55EFD /* SideMenuCell.swift */; };
+		C49450CE2519ACAC0046FB32 /* TermsOfUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49450CD2519ACAC0046FB32 /* TermsOfUse.swift */; };
+		C49450D02519B22E0046FB32 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49450CF2519B22E0046FB32 /* AboutUs.swift */; };
+		C49450D22519D5990046FB32 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49450D12519D5990046FB32 /* ChangePassword.swift */; };
+		C49450DD2519E3DC0046FB32 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49450DC2519E3DC0046FB32 /* EditProfile.swift */; };
+		C4D64CB825186CF4005BD062 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CAD25186CF4005BD062 /* CurrentUser.swift */; };
+		C4D64CB925186CF4005BD062 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CAE25186CF4005BD062 /* Alert.swift */; };
+		C4D64CBB25186CF4005BD062 /* CornerRadiusViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB025186CF4005BD062 /* CornerRadiusViewShadow.swift */; };
+		C4D64CBC25186CF4005BD062 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB125186CF4005BD062 /* Loader.swift */; };
+		C4D64CBD25186CF4005BD062 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB225186CF4005BD062 /* BorderTextField.swift */; };
+		C4D64CBE25186CF4005BD062 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB325186CF4005BD062 /* AuthButton.swift */; };
+		C4D64CBF25186CF4005BD062 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB425186CF4005BD062 /* Define.swift */; };
+		C4D64CC025186CF4005BD062 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB525186CF4005BD062 /* Util.swift */; };
+		C4D64CC125186CF4005BD062 /* ApiUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB625186CF4005BD062 /* ApiUrls.swift */; };
+		C4D64CC225186CF4005BD062 /* ServerAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CB725186CF4005BD062 /* ServerAPIs.swift */; };
+		C4D64CC525186D9C005BD062 /* ErrorAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CC325186D9C005BD062 /* ErrorAlertView.xib */; };
+		C4D64CC625186D9C005BD062 /* ErrorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CC425186D9C005BD062 /* ErrorAlertView.swift */; };
+		C4D64CDE25186E04005BD062 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CC825186E03005BD062 /* Localizable.strings */; };
+		C4D64CDF25186E04005BD062 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CCC25186E03005BD062 /* Poppins-ExtraLight.ttf */; };
+		C4D64CE025186E04005BD062 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CCD25186E03005BD062 /* Poppins-ThinItalic.ttf */; };
+		C4D64CE125186E04005BD062 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CCE25186E03005BD062 /* Poppins-ExtraLightItalic.ttf */; };
+		C4D64CE225186E04005BD062 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CCF25186E03005BD062 /* Poppins-BoldItalic.ttf */; };
+		C4D64CE325186E04005BD062 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD025186E03005BD062 /* Poppins-Light.ttf */; };
+		C4D64CE425186E04005BD062 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD125186E03005BD062 /* Poppins-Medium.ttf */; };
+		C4D64CE525186E04005BD062 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD225186E03005BD062 /* Poppins-SemiBoldItalic.ttf */; };
+		C4D64CE625186E04005BD062 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD325186E03005BD062 /* Poppins-ExtraBoldItalic.ttf */; };
+		C4D64CE725186E04005BD062 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD425186E03005BD062 /* Poppins-ExtraBold.ttf */; };
+		C4D64CE825186E04005BD062 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD525186E03005BD062 /* Poppins-BlackItalic.ttf */; };
+		C4D64CE925186E04005BD062 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD625186E03005BD062 /* Poppins-Regular.ttf */; };
+		C4D64CEA25186E04005BD062 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD725186E03005BD062 /* Poppins-LightItalic.ttf */; };
+		C4D64CEB25186E04005BD062 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD825186E03005BD062 /* Poppins-Bold.ttf */; };
+		C4D64CEC25186E04005BD062 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CD925186E03005BD062 /* Poppins-Black.ttf */; };
+		C4D64CED25186E04005BD062 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CDA25186E03005BD062 /* Poppins-Thin.ttf */; };
+		C4D64CEE25186E04005BD062 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CDB25186E03005BD062 /* Poppins-SemiBold.ttf */; };
+		C4D64CEF25186E04005BD062 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CDC25186E03005BD062 /* Poppins-Italic.ttf */; };
+		C4D64CF025186E04005BD062 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D64CDD25186E03005BD062 /* Poppins-MediumItalic.ttf */; };
+		C4D64CF325186E9B005BD062 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D64CF225186E9B005BD062 /* Extensions.swift */; };
+		C992FED12479825BF8F9E106 /* Pods_Swayam_Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6C8A5835EE9E472F2B8FC4 /* Pods_Swayam_Auth.framework */; };
+		F4311BC62515E0700031D423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4311BC52515E0700031D423 /* AppDelegate.swift */; };
+		F4311BCB2515E0700031D423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4311BC92515E0700031D423 /* Main.storyboard */; };
+		F4311BCD2515E0700031D423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4311BCC2515E0700031D423 /* Assets.xcassets */; };
+		F4311BD02515E0700031D423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4311BCE2515E0700031D423 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52AC29D9846ED453D6D9BFE6 /* Pods-Swayam Auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swayam Auth.release.xcconfig"; path = "Target Support Files/Pods-Swayam Auth/Pods-Swayam Auth.release.xcconfig"; sourceTree = "<group>"; };
+		7B6C8A5835EE9E472F2B8FC4 /* Pods_Swayam_Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swayam_Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42900652515E51C006DC8FC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C42900672515E53E006DC8FC /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		C42900692515E5AA006DC8FC /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		C429006B2515F975006DC8FC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C46DF89B251A0E2100E55EFD /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		C46DF89C251A0E2100E55EFD /* SideMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuVC.xib; sourceTree = "<group>"; };
+		C46DF89D251A0E2100E55EFD /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		C46DF89E251A0E2100E55EFD /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		C46DF89F251A0E2100E55EFD /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		C49450CD2519ACAC0046FB32 /* TermsOfUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUse.swift; sourceTree = "<group>"; };
+		C49450CF2519B22E0046FB32 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		C49450D12519D5990046FB32 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		C49450DC2519E3DC0046FB32 /* EditProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		C4D64CAD25186CF4005BD062 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		C4D64CAE25186CF4005BD062 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C4D64CB025186CF4005BD062 /* CornerRadiusViewShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusViewShadow.swift; sourceTree = "<group>"; };
+		C4D64CB125186CF4005BD062 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		C4D64CB225186CF4005BD062 /* BorderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
+		C4D64CB325186CF4005BD062 /* AuthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		C4D64CB425186CF4005BD062 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		C4D64CB525186CF4005BD062 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		C4D64CB625186CF4005BD062 /* ApiUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUrls.swift; sourceTree = "<group>"; };
+		C4D64CB725186CF4005BD062 /* ServerAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPIs.swift; sourceTree = "<group>"; };
+		C4D64CC325186D9C005BD062 /* ErrorAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorAlertView.xib; sourceTree = "<group>"; };
+		C4D64CC425186D9C005BD062 /* ErrorAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorAlertView.swift; sourceTree = "<group>"; };
+		C4D64CCA25186E03005BD062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C4D64CCC25186E03005BD062 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C4D64CCD25186E03005BD062 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CCE25186E03005BD062 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CCF25186E03005BD062 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CD025186E03005BD062 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		C4D64CD125186E03005BD062 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C4D64CD225186E03005BD062 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CD325186E03005BD062 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CD425186E03005BD062 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C4D64CD525186E03005BD062 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CD625186E03005BD062 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C4D64CD725186E03005BD062 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CD825186E03005BD062 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C4D64CD925186E03005BD062 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		C4D64CDA25186E03005BD062 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		C4D64CDB25186E03005BD062 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4D64CDC25186E03005BD062 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C4D64CDD25186E03005BD062 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C4D64CF225186E9B005BD062 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E04A14470C3CABF94AADA914 /* Pods-Swayam Auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swayam Auth.debug.xcconfig"; path = "Target Support Files/Pods-Swayam Auth/Pods-Swayam Auth.debug.xcconfig"; sourceTree = "<group>"; };
+		F4311BC22515E0700031D423 /* Swayam Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swayam Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4311BC52515E0700031D423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4311BCA2515E0700031D423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4311BCC2515E0700031D423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4311BCF2515E0700031D423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4311BD12515E0700031D423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4311BBF2515E0700031D423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C992FED12479825BF8F9E106 /* Pods_Swayam_Auth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E6338F68CC39AEF9B50D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C8A5835EE9E472F2B8FC4 /* Pods_Swayam_Auth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A787786CBA7266C4E43D393D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04A14470C3CABF94AADA914 /* Pods-Swayam Auth.debug.xcconfig */,
+				52AC29D9846ED453D6D9BFE6 /* Pods-Swayam Auth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C42900622515E503006DC8FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64CC425186D9C005BD062 /* ErrorAlertView.swift */,
+				C4D64CC325186D9C005BD062 /* ErrorAlertView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C42900632515E503006DC8FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C42900652515E51C006DC8FC /* Login.swift */,
+				C42900672515E53E006DC8FC /* SignUp.swift */,
+				C42900692515E5AA006DC8FC /* ForgotPassword.swift */,
+				C429006B2515F975006DC8FC /* Home.swift */,
+				C49450CD2519ACAC0046FB32 /* TermsOfUse.swift */,
+				C49450CF2519B22E0046FB32 /* AboutUs.swift */,
+				C49450D12519D5990046FB32 /* ChangePassword.swift */,
+				C49450DC2519E3DC0046FB32 /* EditProfile.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C42900642515E503006DC8FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64CAE25186CF4005BD062 /* Alert.swift */,
+				C4D64CB625186CF4005BD062 /* ApiUrls.swift */,
+				C4D64CB325186CF4005BD062 /* AuthButton.swift */,
+				C4D64CB225186CF4005BD062 /* BorderTextField.swift */,
+				C4D64CB025186CF4005BD062 /* CornerRadiusViewShadow.swift */,
+				C4D64CAD25186CF4005BD062 /* CurrentUser.swift */,
+				C4D64CB425186CF4005BD062 /* Define.swift */,
+				C4D64CB125186CF4005BD062 /* Loader.swift */,
+				C4D64CB725186CF4005BD062 /* ServerAPIs.swift */,
+				C4D64CB525186CF4005BD062 /* Util.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C46DF89A251A0E2100E55EFD /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				C46DF89C251A0E2100E55EFD /* SideMenuVC.xib */,
+				C46DF89B251A0E2100E55EFD /* SideMenuVC.swift */,
+				C46DF89D251A0E2100E55EFD /* SideMenuCell.xib */,
+				C46DF89F251A0E2100E55EFD /* SideMenuCell.swift */,
+				C46DF89E251A0E2100E55EFD /* SideMenuModel.swift */,
+			);
+			path = Sidemenu;
+			sourceTree = "<group>";
+		};
+		C4D64CC725186E03005BD062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64CC825186E03005BD062 /* Localizable.strings */,
+				C4D64CCB25186E03005BD062 /* Fonts */,
+			);
+			name = "Supporting Files";
+			path = "Swayam Auth/Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4D64CCB25186E03005BD062 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64CCC25186E03005BD062 /* Poppins-ExtraLight.ttf */,
+				C4D64CCD25186E03005BD062 /* Poppins-ThinItalic.ttf */,
+				C4D64CCE25186E03005BD062 /* Poppins-ExtraLightItalic.ttf */,
+				C4D64CCF25186E03005BD062 /* Poppins-BoldItalic.ttf */,
+				C4D64CD025186E03005BD062 /* Poppins-Light.ttf */,
+				C4D64CD125186E03005BD062 /* Poppins-Medium.ttf */,
+				C4D64CD225186E03005BD062 /* Poppins-SemiBoldItalic.ttf */,
+				C4D64CD325186E03005BD062 /* Poppins-ExtraBoldItalic.ttf */,
+				C4D64CD425186E03005BD062 /* Poppins-ExtraBold.ttf */,
+				C4D64CD525186E03005BD062 /* Poppins-BlackItalic.ttf */,
+				C4D64CD625186E03005BD062 /* Poppins-Regular.ttf */,
+				C4D64CD725186E03005BD062 /* Poppins-LightItalic.ttf */,
+				C4D64CD825186E03005BD062 /* Poppins-Bold.ttf */,
+				C4D64CD925186E03005BD062 /* Poppins-Black.ttf */,
+				C4D64CDA25186E03005BD062 /* Poppins-Thin.ttf */,
+				C4D64CDB25186E03005BD062 /* Poppins-SemiBold.ttf */,
+				C4D64CDC25186E03005BD062 /* Poppins-Italic.ttf */,
+				C4D64CDD25186E03005BD062 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C4D64CF125186E9B005BD062 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64CF225186E9B005BD062 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4311BB92515E0700031D423 = {
+			isa = PBXGroup;
+			children = (
+				F4311BC42515E0700031D423 /* Swayam Auth */,
+				F4311BC32515E0700031D423 /* Products */,
+				A787786CBA7266C4E43D393D /* Pods */,
+				C4D64CC725186E03005BD062 /* Supporting Files */,
+				22E6338F68CC39AEF9B50D47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4311BC32515E0700031D423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4311BC22515E0700031D423 /* Swayam Auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4311BC42515E0700031D423 /* Swayam Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F4311BC52515E0700031D423 /* AppDelegate.swift */,
+				C42900632515E503006DC8FC /* Controllers */,
+				C42900642515E503006DC8FC /* Models */,
+				C42900622515E503006DC8FC /* Views */,
+				C4D64CF125186E9B005BD062 /* Extensions */,
+				C46DF89A251A0E2100E55EFD /* Sidemenu */,
+				F4311BC92515E0700031D423 /* Main.storyboard */,
+				F4311BCC2515E0700031D423 /* Assets.xcassets */,
+				F4311BCE2515E0700031D423 /* LaunchScreen.storyboard */,
+				F4311BD12515E0700031D423 /* Info.plist */,
+			);
+			path = "Swayam Auth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4311BC12515E0700031D423 /* Swayam Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4311BD42515E0700031D423 /* Build configuration list for PBXNativeTarget "Swayam Auth" */;
+			buildPhases = (
+				3AED89FD405474B50B345EBA /* [CP] Check Pods Manifest.lock */,
+				F4311BBE2515E0700031D423 /* Sources */,
+				F4311BBF2515E0700031D423 /* Frameworks */,
+				F4311BC02515E0700031D423 /* Resources */,
+				C7E78D78FC79419605B297A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swayam Auth";
+			productName = "Swayam Auth";
+			productReference = F4311BC22515E0700031D423 /* Swayam Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4311BBA2515E0700031D423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Swayam Infotech";
+				TargetAttributes = {
+					F4311BC12515E0700031D423 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F4311BBD2515E0700031D423 /* Build configuration list for PBXProject "Swayam Auth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = F4311BB92515E0700031D423;
+			productRefGroup = F4311BC32515E0700031D423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4311BC12515E0700031D423 /* Swayam Auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4311BC02515E0700031D423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D64CEA25186E04005BD062 /* Poppins-LightItalic.ttf in Resources */,
+				C4D64CEB25186E04005BD062 /* Poppins-Bold.ttf in Resources */,
+				C4D64CE225186E04005BD062 /* Poppins-BoldItalic.ttf in Resources */,
+				C4D64CE325186E04005BD062 /* Poppins-Light.ttf in Resources */,
+				C4D64CE425186E04005BD062 /* Poppins-Medium.ttf in Resources */,
+				C4D64CEC25186E04005BD062 /* Poppins-Black.ttf in Resources */,
+				C4D64CE125186E04005BD062 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				C4D64CDF25186E04005BD062 /* Poppins-ExtraLight.ttf in Resources */,
+				C4D64CE625186E04005BD062 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				C4D64CED25186E04005BD062 /* Poppins-Thin.ttf in Resources */,
+				C4D64CE525186E04005BD062 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				C4D64CE925186E04005BD062 /* Poppins-Regular.ttf in Resources */,
+				C4D64CE825186E04005BD062 /* Poppins-BlackItalic.ttf in Resources */,
+				C46DF8A2251A0E2100E55EFD /* SideMenuCell.xib in Resources */,
+				C4D64CDE25186E04005BD062 /* Localizable.strings in Resources */,
+				C4D64CC525186D9C005BD062 /* ErrorAlertView.xib in Resources */,
+				C4D64CEE25186E04005BD062 /* Poppins-SemiBold.ttf in Resources */,
+				F4311BD02515E0700031D423 /* LaunchScreen.storyboard in Resources */,
+				C4D64CE725186E04005BD062 /* Poppins-ExtraBold.ttf in Resources */,
+				C46DF8A1251A0E2100E55EFD /* SideMenuVC.xib in Resources */,
+				C4D64CEF25186E04005BD062 /* Poppins-Italic.ttf in Resources */,
+				F4311BCD2515E0700031D423 /* Assets.xcassets in Resources */,
+				C4D64CE025186E04005BD062 /* Poppins-ThinItalic.ttf in Resources */,
+				C4D64CF025186E04005BD062 /* Poppins-MediumItalic.ttf in Resources */,
+				F4311BCB2515E0700031D423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AED89FD405474B50B345EBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swayam Auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E78D78FC79419605B297A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swayam Auth/Pods-Swayam Auth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swayam Auth/Pods-Swayam Auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4311BBE2515E0700031D423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4311BC62515E0700031D423 /* AppDelegate.swift in Sources */,
+				C4D64CC625186D9C005BD062 /* ErrorAlertView.swift in Sources */,
+				C4D64CBE25186CF4005BD062 /* AuthButton.swift in Sources */,
+				C42900682515E53E006DC8FC /* SignUp.swift in Sources */,
+				C49450D02519B22E0046FB32 /* AboutUs.swift in Sources */,
+				C4D64CC125186CF4005BD062 /* ApiUrls.swift in Sources */,
+				C4D64CBD25186CF4005BD062 /* BorderTextField.swift in Sources */,
+				C429006C2515F975006DC8FC /* Home.swift in Sources */,
+				C4D64CBC25186CF4005BD062 /* Loader.swift in Sources */,
+				C42900662515E51C006DC8FC /* Login.swift in Sources */,
+				C46DF8A0251A0E2100E55EFD /* SideMenuVC.swift in Sources */,
+				C46DF8A3251A0E2100E55EFD /* SideMenuModel.swift in Sources */,
+				C4D64CB825186CF4005BD062 /* CurrentUser.swift in Sources */,
+				C4D64CBB25186CF4005BD062 /* CornerRadiusViewShadow.swift in Sources */,
+				C49450D22519D5990046FB32 /* ChangePassword.swift in Sources */,
+				C4D64CBF25186CF4005BD062 /* Define.swift in Sources */,
+				C4D64CC025186CF4005BD062 /* Util.swift in Sources */,
+				C49450DD2519E3DC0046FB32 /* EditProfile.swift in Sources */,
+				C429006A2515E5AA006DC8FC /* ForgotPassword.swift in Sources */,
+				C4D64CF325186E9B005BD062 /* Extensions.swift in Sources */,
+				C4D64CB925186CF4005BD062 /* Alert.swift in Sources */,
+				C49450CE2519ACAC0046FB32 /* TermsOfUse.swift in Sources */,
+				C4D64CC225186CF4005BD062 /* ServerAPIs.swift in Sources */,
+				C46DF8A4251A0E2100E55EFD /* SideMenuCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4D64CC825186E03005BD062 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D64CCA25186E03005BD062 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F4311BC92515E0700031D423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4311BCA2515E0700031D423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4311BCE2515E0700031D423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4311BCF2515E0700031D423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4311BD22515E0700031D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4311BD32515E0700031D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4311BD52515E0700031D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04A14470C3CABF94AADA914 /* Pods-Swayam Auth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Swayam Auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swayamauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4311BD62515E0700031D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AC29D9846ED453D6D9BFE6 /* Pods-Swayam Auth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Swayam Auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swayamauth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4311BBD2515E0700031D423 /* Build configuration list for PBXProject "Swayam Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4311BD22515E0700031D423 /* Debug */,
+				F4311BD32515E0700031D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4311BD42515E0700031D423 /* Build configuration list for PBXNativeTarget "Swayam Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4311BD52515E0700031D423 /* Debug */,
+				F4311BD62515E0700031D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4311BBA2515E0700031D423 /* Project object */;
+}
